@@ -1,0 +1,32 @@
+.calculator-body{
+    width: 285px;
+    margin: auto;
+    height: 413px;
+    background:black;
+    border: 2px solid black;
+}
+
+.calc-button-col{
+ margin-top:2px;
+    display: table;
+}
+
+.calc-button-col button{
+    display: table-cell;
+    width: 25%;
+    background: #6e9ede;
+    color: white;
+    height: 65px;
+    font-size: 1.3rem;
+    border: none;
+    border-color:black;
+    border-width: 1px 1px 0px 0;
+    border-style: solid;
+}
+.calc-button-col button.arthmetc-opn{
+    color: black;
+}
+
+.calc-button-col button:hover{
+    background: #3e4b5c;
+}
